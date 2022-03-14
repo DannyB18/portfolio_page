@@ -3,12 +3,13 @@
 }
 
 body {
-  //   font-family: "Abel", sans-serif;
   font-family: "Nunito Sans", sans-serif;
   //   background: url("../../img/peakpx.jpg") no-repeat $color-1;
   //   background-blend-mode: multiply;
+  //   padding: 0 1rem;
   background-color: $color-1;
   color: $color-4;
+  height: 0;
 }
 
 h1 {
@@ -16,7 +17,6 @@ h1 {
   font-size: 5rem;
   font-weight: bold;
   text-shadow: 5px 5px 3px $color-shadow;
-
   @include mq("xs") {
     font-size: 3rem;
   }
